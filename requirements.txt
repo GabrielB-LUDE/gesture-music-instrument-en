@@ -1,0 +1,14 @@
+# Core
+opencv-python>=4.8.0
+mediapipe>=0.10.18
+numpy>=1.24.0
+python-osc>=1.8.0
+# Typesetting of the interface. Without Pillow the display keeps drawing with the
+# simple OpenCV stroke fonts - it just looks plainer.
+pillow>=9.0.0
+
+# Internal sound engine (optional, but recommended: then you don't need a DAW)
+sounddevice>=0.4.6
+
+# Optional: OSC to MIDI bridge for DAWs without Max for Live
+# python-rtmidi>=1.5.0
